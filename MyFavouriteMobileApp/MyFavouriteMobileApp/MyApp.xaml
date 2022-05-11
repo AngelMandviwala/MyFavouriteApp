@@ -1,12 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MyFavouriteMobileApp.MyApp">
+             x:Class="MyFavouriteMobileApp.MyApp" BackgroundColor="Black">
+    
+    <NavigationPage.TitleView>
+        <Label Text="Who's Watching?" 
+               TextColor="White" 
+               FontAttributes="Bold"
+               FontSize="Medium"
+               HorizontalOptions="Center"/>
+    </NavigationPage.TitleView>
+   
     <ContentPage.Content>
         <StackLayout>
-            <Label>
-                
-            </Label>
+            <!--view-design 1 block,make class called userprofiles,2 properties-image,name,[working with list view-microsoft learn]--> 
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

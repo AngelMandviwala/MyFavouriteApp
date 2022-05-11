@@ -14,5 +14,16 @@ namespace MyFavouriteMobileApp
         {
             InitializeComponent();
         }
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            await Task.Delay(1000);
+            var myApp = new MyApp();
+            await Navigation.PushAsync(myApp);
+            BackgroundColor = Color.Black;
+        }
+
+       
     }
 }

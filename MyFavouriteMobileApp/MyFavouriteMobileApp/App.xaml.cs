@@ -10,11 +10,15 @@ namespace MyFavouriteMobileApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            var navPage = new NavigationPage(new MainPage());
+            navPage.BarBackgroundColor = Color.Black;
+            MainPage = navPage;
         }
 
-        protected override void OnStart()
+        protected override async void OnStart()
         {
+          //  base.OnStart();
+            
         }
 
         protected override void OnSleep()

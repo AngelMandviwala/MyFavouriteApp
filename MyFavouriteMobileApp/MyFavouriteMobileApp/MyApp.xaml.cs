@@ -12,9 +12,12 @@ namespace MyFavouriteMobileApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MyApp : ContentPage
     {
+        
         public MyApp()
         {
             InitializeComponent();
+
+            
         }
     }
 }
