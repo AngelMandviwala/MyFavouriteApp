@@ -18,7 +18,7 @@ namespace MyFavouriteMobileApp
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            await Task.Delay(1000);
+            await Task.Delay(1500);
             var myApp = new MyApp();
             await Navigation.PushAsync(myApp);
             BackgroundColor = Color.Black;

@@ -4,16 +4,90 @@
              x:Class="MyFavouriteMobileApp.MyApp" BackgroundColor="Black">
     
     <NavigationPage.TitleView>
-        <Label Text="Who's Watching?" 
-               TextColor="White" 
-               FontAttributes="Bold"
-               FontSize="Medium"
-               HorizontalOptions="Center"/>
+        <Image Source="NetflixWord.jpg"
+               HorizontalOptions="CenterAndExpand"
+               HeightRequest="50"/>
     </NavigationPage.TitleView>
    
     <ContentPage.Content>
-        <StackLayout>
-            <!--view-design 1 block,make class called userprofiles,2 properties-image,name,[working with list view-microsoft learn]--> 
+        <StackLayout VerticalOptions="StartAndExpand">
+            <Label Text="Who's Watching?"
+               TextColor="White"
+               FontAttributes="Bold"
+               FontSize="Medium"
+               HorizontalOptions="Center"/>
+
+            <Grid Padding="50">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+
+                <StackLayout Margin="20" Orientation="Vertical" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0">
+
+                    <ImageButton Source="{Binding User.Icon}"  
+                             HeightRequest="100"
+                             BackgroundColor="Black" 
+                             Clicked="ImageButton_Clicked" />
+
+                    <Label TextColor="White" 
+                       Text="Angel" 
+                       FontSize="Subtitle" 
+                       HorizontalTextAlignment="Center"/>
+
+                </StackLayout>
+
+                <StackLayout Margin="20" Orientation="Vertical" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0">
+
+                    <ImageButton Source="NetflixProfile2.jpg" 
+                             HeightRequest="100"
+                             BackgroundColor="Black" 
+                             Clicked="ImageButton_Clicked"/>
+
+                    <Label TextColor="White" 
+                       Text="Kayla" 
+                       FontSize="Subtitle"
+                       HorizontalTextAlignment="Center"/>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" HorizontalOptions="Center" Grid.Column="0" Grid.Row="1">
+
+                    <ImageButton Source="NetflixProfile3.jpg" 
+                             HeightRequest="100"
+                             BackgroundColor="Black"
+                             Clicked="ImageButton_Clicked"/>
+
+                    <Label TextColor="White" 
+                       Text="Mesha" 
+                       FontSize="Subtitle" 
+                       HorizontalTextAlignment="Center"/>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" HorizontalOptions="Center" Grid.Column="1" Grid.Row="1">
+
+                    <ImageButton Source="NetflixProfile4.jpg" 
+                             HeightRequest="100"
+                             BackgroundColor="Black" 
+                             Clicked="ImageButton_Clicked" />
+
+                    <Label TextColor="White" 
+                       Text="Chauntina" 
+                       FontSize="Subtitle"
+                       HorizontalTextAlignment="Center"/>
+
+                </StackLayout>
+            </Grid>
         </StackLayout>
+        
+        
+        
     </ContentPage.Content>
 </ContentPage>
