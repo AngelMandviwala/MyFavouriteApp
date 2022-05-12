@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MyFavouriteMobileApp.HomePage" Title="Home" IconImageSource="HouseIcon.png" BackgroundColor="Black">
+             x:Class="MyFavouriteMobileApp.HomePage" Title="Home" IconImageSource="home.png" BackgroundColor="Black">
     
     <ContentPage.Content>
         <StackLayout>
@@ -23,9 +23,21 @@
                                        HeightRequest="200"
                                        HorizontalOptions="Start"
                                        Margin="10"/>
+
                                 </ScrollView>
                             </StackLayout>
-                        </Grid>
+
+                        <StackLayout>
+                            <ScrollView VerticalOptions="Center" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                                <Image Source="familyguy.jpg"
+                                       HeightRequest="200"
+                                       HorizontalOptions="Center"
+                                       
+                                       />
+                            </ScrollView>
+                        </StackLayout>
+
+                    </Grid>
                         
 
 
