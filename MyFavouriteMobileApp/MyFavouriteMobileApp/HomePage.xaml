@@ -6,10 +6,33 @@
     <ContentPage.Content>
         <StackLayout>
 
-            <Image Source="NetflixLogo.jpeg"
-                   VerticalOptions="StartAndExpand"
-                   HeightRequest="40"
-                   />
+            <StackLayout>
+                <Label Text="New Releases"
+                           TextColor="White"
+                           HorizontalTextAlignment="Start"/>
+
+                
+            </StackLayout>
+
+            <StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                        <Grid>
+                            <StackLayout>
+                                <ScrollView VerticalOptions="StartAndExpand" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                                    <Image Source="braveheart.jpg"
+                                       HeightRequest="200"
+                                       HorizontalOptions="Start"
+                                       Margin="10"/>
+                                </ScrollView>
+                            </StackLayout>
+                        </Grid>
+                        
+
+
+                    </StackLayout>
+
+            </StackLayout>
+           
             
             
 
