@@ -30,9 +30,8 @@
 
 
                 <StackLayout Margin="20" Orientation="Vertical" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0">
-
                     <ImageButton Source="{Binding User.Icon}"  
-                             HeightRequest="100"
+                             HeightRequest="90"
                              BackgroundColor="Black" 
                              Clicked="ImageButton_Clicked" />
 
@@ -40,49 +39,42 @@
                        Text="Angel" 
                        FontSize="Subtitle" 
                        HorizontalTextAlignment="Center"/>
-
                 </StackLayout>
 
                 <StackLayout Margin="20" Orientation="Vertical" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0">
-
                     <ImageButton Source="NetflixProfile2.jpg" 
-                             HeightRequest="100"
+                             HeightRequest="90"
                              BackgroundColor="Black" 
                              Clicked="ImageButton_Clicked"/>
 
                     <Label TextColor="White" 
-                       Text="Kayla" 
+                       Text="Brandon" 
                        FontSize="Subtitle"
                        HorizontalTextAlignment="Center"/>
-
                 </StackLayout>
 
                 <StackLayout Orientation="Vertical" HorizontalOptions="Center" Grid.Column="0" Grid.Row="1">
-
                     <ImageButton Source="NetflixProfile3.jpg" 
-                             HeightRequest="100"
+                             HeightRequest="90"
                              BackgroundColor="Black"
                              Clicked="ImageButton_Clicked"/>
 
                     <Label TextColor="White" 
-                       Text="Mesha" 
+                       Text="Delapaix" 
                        FontSize="Subtitle" 
                        HorizontalTextAlignment="Center"/>
-
                 </StackLayout>
 
                 <StackLayout Orientation="Vertical" HorizontalOptions="Center" Grid.Column="1" Grid.Row="1">
-
                     <ImageButton Source="NetflixProfile4.jpg" 
-                             HeightRequest="100"
+                             HeightRequest="90"
                              BackgroundColor="Black" 
                              Clicked="ImageButton_Clicked" />
 
                     <Label TextColor="White" 
-                       Text="Chauntina" 
+                       Text="Mujaahid" 
                        FontSize="Subtitle"
                        HorizontalTextAlignment="Center"/>
-
                 </StackLayout>
             </Grid>
         </StackLayout>

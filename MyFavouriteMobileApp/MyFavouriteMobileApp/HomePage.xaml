@@ -19,23 +19,25 @@
                         <Grid>
                             <StackLayout>
                                 <ScrollView VerticalOptions="StartAndExpand" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                                    <Image Source="braveheart.jpg"
+                                <Image Source="braveheart.jpg"
                                        HeightRequest="200"
                                        HorizontalOptions="Start"
                                        Margin="10"/>
-
-                                </ScrollView>
+                            </ScrollView>
                             </StackLayout>
 
                         <StackLayout>
-                            <ScrollView VerticalOptions="Center" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                            <ScrollView VerticalOptions="End" Orientation="Horizontal" HorizontalOptions="EndAndExpand" >
                                 <Image Source="familyguy.jpg"
-                                       HeightRequest="200"
-                                       HorizontalOptions="Center"
-                                       
-                                       />
+                                           HeightRequest="200"
+                                           HorizontalOptions="EndAndExpand"/>
+
+
                             </ScrollView>
                         </StackLayout>
+
+                        
+
 
                     </Grid>
                         

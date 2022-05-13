@@ -16538,7 +16538,7 @@ namespace MyFavouriteMobileApp.Droid
 			public const int design_snackbar_background = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int DowloadIcon = 2131165286;
+			public const int DownloadIcon = 2131165286;
 			
 			// aapt resource value: 0x7F070067
 			public const int familyguy = 2131165287;
